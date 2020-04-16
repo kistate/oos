@@ -1,0 +1,25 @@
+{
+    "name": "kistate/oos",
+    "description": "天翼云OOS Laravel Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kistate",
+            "email": "kistate@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kistate\\OOS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kistate\\OOS\\OOSFileSystemServiceProvider"
+            ]
+        }
+    }
+}
